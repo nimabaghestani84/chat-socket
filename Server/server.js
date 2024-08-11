@@ -1,7 +1,6 @@
 import mongoose from "mongoose";
-import server from './Socket'
+import server from './Socket/index.js'
 import dotenv from "dotenv"
-import { server } from "./Socket/index.js";
 dotenv.config({path:'./config.env'})
 
 mongoose.connect(process.env.DATABASE_URL).then(()=>console.log('DB IS CONNECTED')).catch(err=>console.log(err))
