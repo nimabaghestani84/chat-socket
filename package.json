@@ -1,5 +1,5 @@
 {
-    "name": "i3center",
+    "name": "chat-c",
     "version": "1.0.0",
     "description": "",
     "main": "server.js",
@@ -8,7 +8,7 @@
       "dev": "nodemon server.js",
       "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "alireza aghaee",
+    "author": "nima baghestani",
     "license": "ISC",
     "dependencies": {
       "cors": "^2.8.5",
